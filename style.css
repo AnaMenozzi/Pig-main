@@ -1,36 +1,68 @@
 /* My first CSS
 Author: Ana
 Version 2.0 */
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
+
 body {
-    background-color: #CFE0E3;
-    color: #335C63;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #CFE0E3;
+	color: #335C63;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .cimage {
 	width: 300px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
 }
+
 h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
+
 .titulo-blog {
-    color: #E37346;
+	color: #E37346;
 }
-.texto-destaque{
-	color:#335C63;
+
+.texto-destaque {
+	color: #335C63;
 	font-size: 25px;
 }
-p {
-    font-size: 14px;
+.conteudo {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-around;
 }
+.apresentacao {
+	display: flex;
+	justify-content: space-between;
+}
+
+p {
+	font-size: 14px;
+}
+.button {
+	border: 2px solid #E1D8C9;
+	border-radius: 5px;
+	background-color:  #e2d2b5;
+	padding: 8px;
+}
+
 a {
-    color: #335C63;
+	color: #335C63;
+}
+.img1 {
+	margin: 5px;
 }
 .right {
 	margin-top: 10px;
@@ -42,7 +74,8 @@ a {
 	float: right;
 	border: 2px solid #B33300;
 }
-.urgente{
+
+.urgente {
 	color: #B33300;
 
 }

@@ -41,7 +41,8 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content: space-around;
+justify-content: center;
+gap: 12px;
 }
 .apresentacao {
 	display: flex;
@@ -51,9 +52,10 @@ justify-content: space-around;
 p {
 	font-size: 14px;
 }
+
 .button {
 	border: 2px solid #E1D8C9;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color:  #e2d2b5;
 	padding: 8px;
 }

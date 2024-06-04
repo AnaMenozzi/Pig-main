@@ -1,6 +1,7 @@
 /* My first CSS
 Author: Ana
 Version 2.0 */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -14,7 +15,7 @@ body {
 	align-items: center;
 	background-color: #CFE0E3;
 	color: #335C63;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 .cimage {
@@ -28,32 +29,37 @@ h1 {
 	font-size: 40px;
 }
 
-.titulo-blog {
+.titulo__blog{
 	color: #E37346;
+	font-family: "Krona One", sans-serif;
 }
 
-.texto-destaque {
+.conteudo__blog__destaque{
 	color: #335C63;
 	font-size: 25px;
+	font-family: "Krona One", sans-serif;
 }
-.conteudo {
-display: flex;
-align-items: center;
-flex-wrap: wrap;
-flex-direction: column;
-justify-content: center;
-gap: 12px;
+.conteudo__blog{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	gap: 12px;
+
 }
 .apresentacao {
-	display: flex;
-	justify-content: space-between;
+	margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 p {
 	font-size: 14px;
 }
 
-.button {
+.button__social {
 	border: 2px solid #E1D8C9;
 	border-radius: 10px;
 	background-color:  #e2d2b5;

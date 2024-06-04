@@ -58,12 +58,22 @@ h1 {
 p {
 	font-size: 14px;
 }
-
 .button__social {
-	border: 2px solid #E1D8C9;
-	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button__social__link {
 	background-color:  #e2d2b5;
-	padding: 8px;
+	width: 280px;
+	text-align: center;
+	border-radius: 16px;
+	padding: 21.5px 0;
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #335C63;
+	font-family: "Montserrat", sans-serif;
 }
 
 a {

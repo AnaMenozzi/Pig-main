@@ -29,24 +29,20 @@ h1 {
 	font-size: 40px;
 }
 
-.titulo__blog{
+.conteudo__blog__título{
 	color: #E37346;
 	font-family: "Krona One", sans-serif;
 }
-
-.conteudo__blog__destaque{
-	color: #335C63;
-	font-size: 25px;
-	font-family: "Krona One", sans-serif;
-}
-.conteudo__blog{
+.conteudo__blog__texto{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 	gap: 12px;
-
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 15px;
 }
 .apresentacao {
 	margin: 10%;
@@ -61,13 +57,22 @@ p {
 .button__social {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+}
+.button__social__subtitle {
+	font-family: "Krona one", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #E37346;
 }
 
 .button__social__link {
-	background-color:  #e2d2b5;
-	width: 280px;
+	width: 300px;
 	text-align: center;
-	border-radius: 16px;
+	border: 5px solid #335C63;
+	border-radius: 8px;
 	padding: 21.5px 0;
 	font-size: 24px;
 	font-weight: 600;

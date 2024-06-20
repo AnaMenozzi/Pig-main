@@ -18,7 +18,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.cimage {
+.main__image {
 	width: 300px;
 	border: 15px;
 	padding: 50px;
@@ -43,6 +43,8 @@ h1 {
 	font-size: 24px;
 	font-family: "Montserrat", sans-serif;
 	margin-bottom: 15px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 .apresentacao {
 	margin: 10%;
@@ -69,6 +71,9 @@ p {
 }
 
 .button__social__link {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
 	width: 300px;
 	text-align: center;
 	border: 5px solid #335C63;
@@ -79,6 +84,14 @@ p {
 	text-decoration: none;
 	color: #335C63;
 	font-family: "Montserrat", sans-serif;
+}
+.button__social__link img{
+	width: 32px;
+}
+.button__social__link:hover{
+	background-color: #335C63;
+	color: #CFE0E3;
+	border-color: #223d42;
 }
 
 a {
